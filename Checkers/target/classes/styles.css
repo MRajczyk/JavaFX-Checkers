@@ -1,0 +1,12 @@
+.toggle-button {
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+    -fx-background-size: 100 30;
+    -fx-background-image: url("com/company/checkers/toggle_off.png");
+}
+
+.toggle-button:selected {
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+    -fx-background-image: url("com/company/checkers/toggle_on.png");
+}
